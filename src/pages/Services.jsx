@@ -260,7 +260,7 @@ export default function Services() {
       icon: "💳",
       title: "Premium Token Card",
       description:
-        "High-quality physical card with embedded QR code, designed to last a lifetime with premium materials and elegant finish.",
+        "High-quality physical card with embedded NFC QR code, designed to last a lifetime with premium materials and elegant finish.",
       bgIcon: "💎",
     },
     {
@@ -359,9 +359,9 @@ Boost Efficiency & Brand Loyalty—Request a Custom Business Solution.`,
         <section style={styles.hero}>
           <h1 style={styles.title}>Skyelink Card Services</h1>
           <p style={styles.subtitle}>
-            Every QR code is available through our premium Token Card system.
-            Create lasting digital memories and professional connections with
-            our comprehensive range of services.
+            Every NFC QR code is available through our premium Token Card
+            system. Create lasting digital memories and professional connections
+            with our comprehensive range of services.
           </p>
         </section>
 

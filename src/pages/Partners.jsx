@@ -283,7 +283,7 @@ export default function Partners() {
       icon: "💰",
       title: "Bulk Discount",
       description:
-        "Get special pricing on bulk QR code orders with tiered discounting that scales with your business needs.",
+        "Get special pricing on bulk NFC QR code orders with tiered discounting that scales with your business needs.",
     },
     {
       icon: "🚀",
@@ -374,8 +374,8 @@ export default function Partners() {
         <section style={styles.hero}>
           <h1 style={styles.title}>Partnership Program</h1>
           <p style={styles.subtitle}>
-            Join our network of QR code service providers and unlock exclusive
-            benefits that will accelerate your business growth.
+            Join our network of NFC QR code service providers and unlock
+            exclusive benefits that will accelerate your business growth.
           </p>
         </section>
 

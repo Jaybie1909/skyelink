@@ -356,11 +356,11 @@ export default function Home() {
       desc: "Whether it's a wedding, newborn, business, or beloved pet, SKYELINK offers custom token cards designed to hold memories for every stage.",
     },
     {
-      title: "Dynamic QR Codes",
+      title: "Dynamic NFC QR codes",
       desc: "Update content without reprinting codes - your memories evolve as life happens",
     },
     {
-      title: "Lightning Fast Access",
+      title: "Lightning Fast Access Via NFC",
       desc: "Instant generation and real-time analytics with cloud-powered performance",
     },
     {
@@ -395,7 +395,7 @@ export default function Home() {
           <h1 style={styles.title}>One Tap. One Scan. Total Trust.</h1>
           <p style={styles.lead}>
             From preserving your most cherished memories to powering modern
-            business needs, SKYELINK delivers dynamic, customized QR code
+            business needs, SKYELINK delivers dynamic, customized NFC QR code
             solutions—whether for loved ones or your livelihood.
           </p>
 
@@ -412,12 +412,12 @@ export default function Home() {
                 See How SKYELINK Works
               </p>
               <p style={{ marginBottom: "25px", color: "#666" }}>
-                Scan this QR code or click below to see a sample business
+                Scan this NFC QR code or click below to see a sample business
                 portfolio page
               </p>
               <img
                 src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https://SKYELINK.com/sample-business-portfolio"
-                alt="Sample Business Portfolio QR Code"
+                alt="Sample Business Portfolio NFC QR code"
                 style={styles.qrImage}
                 onMouseEnter={handleQRHover}
                 onMouseLeave={handleQRLeave}
@@ -445,7 +445,7 @@ export default function Home() {
       <div style={styles.container}>
         <section style={styles.contentSection}>
           <h2 style={styles.sectionTitle}>
-            Smart QR Solutions for Life & Legacy
+            NFC & Smart QR Solutions for Life & Legacy
           </h2>
           <div style={styles.grid}>
             {services.map((service, index) => (

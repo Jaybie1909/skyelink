@@ -440,9 +440,9 @@ export default function Gallery() {
       <div style={styles.container}>
         {/* Hero Section */}
         <section style={styles.hero}>
-          <h1 style={styles.title}>QR Code Gallery</h1>
+          <h1 style={styles.title}>NFC QR code Gallery</h1>
           <p style={styles.subtitle}>
-            Explore our collection of custom QR code designs and find
+            Explore our collection of custom NFC QR code designs and find
             inspiration for your next project. Each design showcases different
             use cases and industries.
           </p>
@@ -584,8 +584,8 @@ export default function Gallery() {
               marginBottom: "40px",
             }}
           >
-            Discover hundreds more QR code designs and templates in our complete
-            collection.
+            Discover hundreds more NFC QR code designs and templates in our
+            complete collection.
           </p>
           <button
             style={styles.loadMoreButton}
